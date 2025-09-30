@@ -13,6 +13,26 @@ It fetches player and event data from local `.json` files  using Axios and calcu
 - Clean UI with player name and score.
 - Modular and reusable TypeScript components.
 
+- data/players.json
+[
+  { "id": 1, "name": "John Doe" },
+  { "id": 2, "name": "Jane Smith" }
+  .
+  .
+  .
+  .
+]
+
+data/events.json
+[
+  { "playerId": 1, "points": 20 },
+  { "playerId": 2, "points": 15 }
+  .
+  .
+  .
+  .
+  .
+]
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
